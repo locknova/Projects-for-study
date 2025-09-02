@@ -1,0 +1,9 @@
+/home/noizy/work/my_projects/projects_4study/cpp/qt5_progs/first_lesson/build/Desktop-Debug/CMakeFiles/first_lesson.dir
+/home/noizy/work/my_projects/projects_4study/cpp/qt5_progs/first_lesson/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/noizy/work/my_projects/projects_4study/cpp/qt5_progs/first_lesson/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/noizy/work/my_projects/projects_4study/cpp/qt5_progs/first_lesson/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/noizy/work/my_projects/projects_4study/cpp/qt5_progs/first_lesson/build/Desktop-Debug/CMakeFiles/install.dir
+/home/noizy/work/my_projects/projects_4study/cpp/qt5_progs/first_lesson/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/noizy/work/my_projects/projects_4study/cpp/qt5_progs/first_lesson/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/noizy/work/my_projects/projects_4study/cpp/qt5_progs/first_lesson/build/Desktop-Debug/CMakeFiles/first_lesson_autogen_timestamp_deps.dir
+/home/noizy/work/my_projects/projects_4study/cpp/qt5_progs/first_lesson/build/Desktop-Debug/CMakeFiles/first_lesson_autogen.dir

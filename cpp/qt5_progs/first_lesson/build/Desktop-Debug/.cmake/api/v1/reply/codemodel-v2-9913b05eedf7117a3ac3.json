@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-5de1b40fab7213e95b71.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "first_lesson",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "first_lesson::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_lesson-Debug-19b399f3330cd7c1d7d6.json",
+					"name" : "first_lesson",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_lesson_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_lesson_autogen-Debug-dfcd08161fd73f65b615.json",
+					"name" : "first_lesson_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_lesson_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_lesson_autogen_timestamp_deps-Debug-f1c92f86d8a8125453e7.json",
+					"name" : "first_lesson_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/noizy/work/my_projects/projects_4study/cpp/qt5_progs/first_lesson/build/Desktop-Debug",
+		"source" : "/home/noizy/work/my_projects/projects_4study/cpp/qt5_progs/first_lesson"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
