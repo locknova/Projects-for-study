@@ -1,11 +1,17 @@
-#include "mainwindow.h"
+#include "QWidget"
+#include "QApplication"
+#include "QPushButton"
 
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
-    return a.exec();
+    QApplication app(argc, argv);
+
+    QWidget widget;
+    widget.setWindowTitle("Normal");
+    widget.setMinimumSize(480, 360);
+
+    widget.show();
+    return app.exec();
 }
