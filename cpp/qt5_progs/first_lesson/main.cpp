@@ -13,7 +13,7 @@ int  start_height = 50, start_weight = 200;
 
 void onError();
 QPushButton* btn_error = nullptr;
-char* error_message = "I said don't click!";
+char error_message[] = "I said don't click!";
 
 int main(int argc, char *argv[])
 {
