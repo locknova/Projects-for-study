@@ -13,7 +13,7 @@ int  start_height = 50, start_weight = 200;
 
 void onError();
 QPushButton* btn_error = nullptr;
-char error_message[] = "I said don't click!";
+QString error_message = "I said don't click!";
 
 int main(int argc, char *argv[])
 {
@@ -27,11 +27,11 @@ int main(int argc, char *argv[])
     btn_nock->setGeometry(QRect(QPoint(50, 100),QSize(start_weight, start_height)));
     btn_nock->setMinimumSize(start_weight, start_height);
     btn_nock->setMaximumSize(start_weight, start_height);
-    QObject::connect(btn_nock, &QPushButton::clicked, onNock);
+    QObject::connect(btn_nock, &QPushButton::released, onNock);
 
     btn_error = new QPushButton("Don't click", &widget);
     btn_error->setGeometry(QRect(QPoint(10, 10),QSize(90, 30)));
-    QObject::connect(btn_error, &QPushButton::clicked, onError);
+    QObject::connect(btn_error, &QPushButton::released, onError);
 
     widget.show();
     return app.exec();
@@ -57,7 +57,5 @@ void onNock()
 //
 void onError()
 {
-    QMessageBox msg;
-    msg.setText(error_message);
-    msg.exec();
+    QMessageBox::information(nullptr, "ошибка", error_message);
 }
